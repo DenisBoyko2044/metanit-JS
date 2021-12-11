@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+</head>
+<body>
+<script>
+
+function getSalary(status){
+    if(status==="senior") return 1500;
+    else return 500;
+}
+const name = "Tom";
+const age = 37;
+const person = { name: name, age: age, salary: getSalary()};
+ 
+console.log(person);    // {name: "Tom", age: 37, salary: 500}
+
+
+</script>
+</body>
+</html>
